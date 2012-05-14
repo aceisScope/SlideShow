@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80F673C71560A4E200D50C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F673C61560A4E200D50C8C /* UIKit.framework */; };
+		80F673C91560A4E200D50C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F673C81560A4E200D50C8C /* Foundation.framework */; };
+		80F673CB1560A4E200D50C8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F673CA1560A4E200D50C8C /* CoreGraphics.framework */; };
+		80F673D11560A4E200D50C8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80F673CF1560A4E200D50C8C /* InfoPlist.strings */; };
+		80F673D31560A4E200D50C8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F673D21560A4E200D50C8C /* main.m */; };
+		80F673D71560A4E200D50C8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F673D61560A4E200D50C8C /* AppDelegate.m */; };
+		80F673DA1560A4E200D50C8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F673D91560A4E200D50C8C /* ViewController.m */; };
+		80F673DD1560A4E200D50C8C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F673DB1560A4E200D50C8C /* ViewController.xib */; };
+		80F673F51560ACC400D50C8C /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80F673F21560ACC300D50C8C /* 01.jpg */; };
+		80F673F61560ACC400D50C8C /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F673F31560ACC300D50C8C /* 02.png */; };
+		80F673F71560ACC400D50C8C /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80F673F41560ACC400D50C8C /* 03.jpg */; };
+		80F674081560BE5500D50C8C /* SwitchSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F674071560BE5500D50C8C /* SwitchSlideView.m */; };
+		80F6740D1560C8B000D50C8C /* addmore.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F6740C1560C8B000D50C8C /* addmore.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80F673C21560A4E200D50C8C /* SwitchSlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchSlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F673C61560A4E200D50C8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80F673C81560A4E200D50C8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80F673CA1560A4E200D50C8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80F673CE1560A4E200D50C8C /* SwitchSlideView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchSlideView-Info.plist"; sourceTree = "<group>"; };
+		80F673D01560A4E200D50C8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80F673D21560A4E200D50C8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80F673D41560A4E200D50C8C /* SwitchSlideView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitchSlideView-Prefix.pch"; sourceTree = "<group>"; };
+		80F673D51560A4E200D50C8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80F673D61560A4E200D50C8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80F673D81560A4E200D50C8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80F673D91560A4E200D50C8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80F673DC1560A4E200D50C8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		80F673F21560ACC300D50C8C /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		80F673F31560ACC300D50C8C /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		80F673F41560ACC400D50C8C /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		80F674061560BE5500D50C8C /* SwitchSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchSlideView.h; sourceTree = "<group>"; };
+		80F674071560BE5500D50C8C /* SwitchSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchSlideView.m; sourceTree = "<group>"; };
+		80F6740C1560C8B000D50C8C /* addmore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addmore.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80F673BF1560A4E200D50C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F673C71560A4E200D50C8C /* UIKit.framework in Frameworks */,
+				80F673C91560A4E200D50C8C /* Foundation.framework in Frameworks */,
+				80F673CB1560A4E200D50C8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80F673B71560A4E200D50C8C = {
+			isa = PBXGroup;
+			children = (
+				80F673CC1560A4E200D50C8C /* SwitchSlideView */,
+				80F673C51560A4E200D50C8C /* Frameworks */,
+				80F673C31560A4E200D50C8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80F673C31560A4E200D50C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80F673C21560A4E200D50C8C /* SwitchSlideView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80F673C51560A4E200D50C8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80F673C61560A4E200D50C8C /* UIKit.framework */,
+				80F673C81560A4E200D50C8C /* Foundation.framework */,
+				80F673CA1560A4E200D50C8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80F673CC1560A4E200D50C8C /* SwitchSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				80F674051560BE5500D50C8C /* SwitchSlideView */,
+				80F673F21560ACC300D50C8C /* 01.jpg */,
+				80F673F31560ACC300D50C8C /* 02.png */,
+				80F673F41560ACC400D50C8C /* 03.jpg */,
+				80F6740C1560C8B000D50C8C /* addmore.png */,
+				80F673D51560A4E200D50C8C /* AppDelegate.h */,
+				80F673D61560A4E200D50C8C /* AppDelegate.m */,
+				80F673D81560A4E200D50C8C /* ViewController.h */,
+				80F673D91560A4E200D50C8C /* ViewController.m */,
+				80F673DB1560A4E200D50C8C /* ViewController.xib */,
+				80F673CD1560A4E200D50C8C /* Supporting Files */,
+			);
+			path = SwitchSlideView;
+			sourceTree = "<group>";
+		};
+		80F673CD1560A4E200D50C8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80F673CE1560A4E200D50C8C /* SwitchSlideView-Info.plist */,
+				80F673CF1560A4E200D50C8C /* InfoPlist.strings */,
+				80F673D21560A4E200D50C8C /* main.m */,
+				80F673D41560A4E200D50C8C /* SwitchSlideView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80F674051560BE5500D50C8C /* SwitchSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				80F674061560BE5500D50C8C /* SwitchSlideView.h */,
+				80F674071560BE5500D50C8C /* SwitchSlideView.m */,
+			);
+			path = SwitchSlideView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80F673C11560A4E200D50C8C /* SwitchSlideView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F673E01560A4E200D50C8C /* Build configuration list for PBXNativeTarget "SwitchSlideView" */;
+			buildPhases = (
+				80F673BE1560A4E200D50C8C /* Sources */,
+				80F673BF1560A4E200D50C8C /* Frameworks */,
+				80F673C01560A4E200D50C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchSlideView;
+			productName = SwitchSlideView;
+			productReference = 80F673C21560A4E200D50C8C /* SwitchSlideView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80F673B91560A4E200D50C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Appublisher;
+			};
+			buildConfigurationList = 80F673BC1560A4E200D50C8C /* Build configuration list for PBXProject "SwitchSlideView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80F673B71560A4E200D50C8C;
+			productRefGroup = 80F673C31560A4E200D50C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80F673C11560A4E200D50C8C /* SwitchSlideView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80F673C01560A4E200D50C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F673D11560A4E200D50C8C /* InfoPlist.strings in Resources */,
+				80F673DD1560A4E200D50C8C /* ViewController.xib in Resources */,
+				80F673F51560ACC400D50C8C /* 01.jpg in Resources */,
+				80F673F61560ACC400D50C8C /* 02.png in Resources */,
+				80F673F71560ACC400D50C8C /* 03.jpg in Resources */,
+				80F6740D1560C8B000D50C8C /* addmore.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80F673BE1560A4E200D50C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F673D31560A4E200D50C8C /* main.m in Sources */,
+				80F673D71560A4E200D50C8C /* AppDelegate.m in Sources */,
+				80F673DA1560A4E200D50C8C /* ViewController.m in Sources */,
+				80F674081560BE5500D50C8C /* SwitchSlideView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80F673CF1560A4E200D50C8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F673D01560A4E200D50C8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80F673DB1560A4E200D50C8C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F673DC1560A4E200D50C8C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80F673DE1560A4E200D50C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80F673DF1560A4E200D50C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80F673E11560A4E200D50C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchSlideView/SwitchSlideView-Prefix.pch";
+				INFOPLIST_FILE = "SwitchSlideView/SwitchSlideView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80F673E21560A4E200D50C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchSlideView/SwitchSlideView-Prefix.pch";
+				INFOPLIST_FILE = "SwitchSlideView/SwitchSlideView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80F673BC1560A4E200D50C8C /* Build configuration list for PBXProject "SwitchSlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F673DE1560A4E200D50C8C /* Debug */,
+				80F673DF1560A4E200D50C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F673E01560A4E200D50C8C /* Build configuration list for PBXNativeTarget "SwitchSlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F673E11560A4E200D50C8C /* Debug */,
+				80F673E21560A4E200D50C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80F673B91560A4E200D50C8C /* Project object */;
+}
